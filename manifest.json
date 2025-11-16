@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Discord Hide Blocked",
+    "version": "1.0",
+    "description": "Hide all 'X blocked messages' blocks",
+    "content_scripts": [{
+        "matches": [ "*://discord.com/*" ],
+        "js": [ "hide-blocked.js" ]
+    }]
+}
