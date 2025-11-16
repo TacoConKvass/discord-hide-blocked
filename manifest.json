@@ -12,5 +12,15 @@
 
     "icons": {
         "48": "border-48.png"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "discord_hide_blocked@taco_con_kvass",
+            "data_collection_permissions": {
+                "required": [ "websiteContent" ],
+                "optional": []
+            }
+        }
     }
 }
