@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Discord Hide Blocked",
-    "version": "1.0",
+    "version": "1.1",
     
     "description": "Hide all 'X blocked messages' blocks",
     
@@ -18,7 +18,7 @@
         "gecko": {
             "id": "discord_hide_blocked@taco_con_kvass",
             "data_collection_permissions": {
-                "required": [ "websiteContent" ],
+                "required": [ "none" ],
                 "optional": []
             }
         }
